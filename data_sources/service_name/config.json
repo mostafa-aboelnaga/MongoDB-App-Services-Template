@@ -1,0 +1,10 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/data_sources/#mongodb-clusters",
+    "name": "<Service Name>",
+    "type": "mongodb-atlas",
+    "config": {
+      "clusterName": "<Atlas Cluster Name>",
+      "readPreference": "<Read Preference>",
+      "wireProtocolEnabled": <Boolean>
+    }
+  }

@@ -1,0 +1,13 @@
+[
+    {
+      "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/functions/#function-manifest",
+      "name": "<Function Name>",
+      "private": <Boolean>,
+      "can_evaluate": { <JSON Expression> },
+      "disable_arg_logs": <Boolean>,
+      "run_as_system": <Boolean>,
+      "run_as_user_id": "<App Services User ID>",
+      "run_as_user_id_script_source": "<Function Source Code>"
+    },
+    ...
+  ]

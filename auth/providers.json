@@ -1,0 +1,24 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/auth/#configuration",
+    "<Provider Name>": {
+      "name": "<Provider Name>",
+      "type": "<Provider Type>",
+      "disabled": <Boolean>,
+      "config": {
+        "reference": "https://www.mongodb.com/docs/atlas/app-services/authentication/google/#std-label-auth-google-configuration",
+        "<Configuration Option>": "<Configuration Value>"
+      },
+      "secret_config": {
+        "<Configuration Option>": "<Secret Name>"
+      },
+      "metadata_fields": [
+        {
+          "required": <Boolean>,
+          "name": "Field Name"
+        },
+        ...
+      ],
+      "redirect_uris": ["<Application Redirect URI>", ...]
+    },
+    ...
+  }

@@ -1,0 +1,8 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/auth/#custom-user-data",
+    "enabled": <Boolean>,
+    "mongo_service_name": "<MongoDB Data Source Name>",
+    "database_name": "<Database Name>",
+    "collection_name": "<Collection Name>",
+    "user_id_field": "<Field Name>"
+  }

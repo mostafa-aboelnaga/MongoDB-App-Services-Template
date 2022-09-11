@@ -1,0 +1,18 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/triggers/#database-triggers",
+    "name": "<Trigger Name>",
+    "type": "DATABASE",
+    "config": {
+      "service_name": "<MongoDB Service Name>",
+      "database": "<Database Name>",
+      "collection": "<Collection Name>",
+      "operation_types": ["<Operation Type>", ...],
+      "full_document": <boolean>,
+      "full_document_before_change": <boolean>,
+      "unordered": <boolean>,
+      "match": { <Match Filter> },
+      "project": { <Projection Filter> },
+    },
+    "function_name": "<Trigger Function Name>",
+    "disabled": <Boolean>
+  }

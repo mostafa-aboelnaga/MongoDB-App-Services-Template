@@ -1,0 +1,6 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/services/#service-rules",
+    "name": "<Rule Name>",
+    "actions": ["<Service Action Name>"],
+    "when": { <JSON Expression> }
+  }

@@ -1,0 +1,9 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/data_sources/#collection-schema",
+    "title": "<Object Type Name>",
+    "bsonType": "object",
+    "properties": {
+      "<Property Name>": { <Schema> },
+      ...
+    }
+  }

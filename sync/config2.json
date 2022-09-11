@@ -1,0 +1,42 @@
+{
+  "reference for flexible sync": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/sync/#flexible-sync-configuration",
+  "type": "flexible",
+  "development_mode_enabled": <Boolean>,
+  "service_name": "<Data Source Name>",
+  "database_name": "<Development Mode Database Name>",
+  "state": <"enabled" | "disabled">,
+  "permissions": {
+    "rules": {
+      "<Type Name>": [
+        {
+          "name": <String>,
+          "applyWhen": { <Expression> },
+          "read": <Expression>,
+          "write": <Expression>,
+          "fields": {
+            "<Field Name>": {
+              "read": <Boolean>,
+              "write": <Boolean>,
+              "fields": <Embedded Object Fields>
+            }
+          }
+          "additional_fields": {
+            "read": <Boolean>,
+            "write": <Boolean>
+          }
+        }
+      ]
+    },
+    "defaultRoles": [
+      {
+        "name": <String>,
+        "applyWhen": { <Expression> },
+        "read": <Expression>,
+        "write": <Expression>
+      }
+    ]
+  },
+  "queryable_fields_names": [
+    <Array of String Field Names>
+  ]
+}

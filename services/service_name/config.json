@@ -1,0 +1,11 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/services/#service-configuration",
+    "name": "<Service Name>",
+    "type": "<Service Type>",
+    "config": {
+       "<Configuration Option>": <Configuration Value>
+    },
+    "secret_config": {
+       "<Configuration Option>": "<Secret Name>"
+    },
+ }

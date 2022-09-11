@@ -1,0 +1,4 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/graphql/#service-configuration",
+    "use_natural_pluralization": <Boolean>
+  }

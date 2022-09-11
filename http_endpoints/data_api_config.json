@@ -1,0 +1,10 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/http_endpoints/#data-api-configuration",
+    "disabled": <boolean>,
+    "versions": ["v1"],
+    "return_type": "EJSON" | "JSON",
+    "create_user_on_auth": <boolean>,
+    "run_as_system": <boolean>,
+    "run_as_user_id": "<User Account ID>",
+    "run_as_user_id_script_source": "<Function Source Code>"
+  }

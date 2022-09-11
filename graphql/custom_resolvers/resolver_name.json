@@ -1,0 +1,10 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/graphql/#custom-resolver-configuration",
+    "on_type": "<Parent Type Name>",
+    "field_name": "<Resolver Field Name>",
+    "function_name": "<Resolver Function Name>",
+    "input_type": "<Input Type Name>" | { <JSON Schema> },
+    "input_type_format": "<Input Type Format>",
+    "payload_type": "<Payload Type Name>" | { <JSON Schema> },
+    "payload_type_format": "<Payload Type Format>",
+  }

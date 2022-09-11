@@ -1,0 +1,17 @@
+{
+    "reference for partition based": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/sync/#partition-based-sync-configuration",
+    "state": <"enabled" | "disabled">,
+    "development_mode_enabled": <Boolean>,
+    "service_name": "<Data Source Name>",
+    "database_name": "<Development Mode Database Name>",
+    "partition": {
+      "key": "<Partition Key Field Name>",
+      "type": "<Partition Key Type>",
+      "permissions": {
+        "read": { <Expression> },
+        "write": { <Expression> }
+      }
+    },
+    "last_disabled": <Number>,
+    "client_max_offline_days": <Number>
+  }

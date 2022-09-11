@@ -1,0 +1,10 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/triggers/#scheduled-triggers",
+    "name": "<Trigger Name>",
+    "type": "SCHEDULED",
+    "config": {
+      "schedule": "<CRON expression>"
+    },
+    "function_name": "<Trigger Function Name>",
+    "disabled": <Boolean>
+  }

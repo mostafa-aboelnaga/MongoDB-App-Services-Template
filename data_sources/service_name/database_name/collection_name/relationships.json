@@ -1,0 +1,10 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/data_sources/#relationships",
+    "<Source Field Name>": {
+      "ref": "#/relationship/<Data Source Name>/<Database Name>/<Collection Name>",
+      "source_key": "<Source Field Name>",
+      "foreign_key": "<Foreign Field Name>",
+      "is_list": <Boolean>
+    },
+    ...
+  }

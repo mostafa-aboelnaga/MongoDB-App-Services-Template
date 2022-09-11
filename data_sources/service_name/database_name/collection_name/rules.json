@@ -1,0 +1,36 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/data_sources/#collection-rules",
+    "database": "<Database Name>",
+    "collection": "<Collection Name>",
+    "roles": [
+      {
+        "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/data_sources/#roles",
+        "name": "<Role Name>",
+        "apply_when": { Expression },
+        "insert": { Expression },
+        "delete": { Expression },
+        "read": { Expression },
+        "write": { Expression },
+        "search": { Expression },
+        "fields": {
+           "<Field Name>": {
+              "read": { Expression },
+              "write": { Expression },
+              "fields": { Embedded Fields }
+           },
+           ...
+        },
+        "additional_fields": {
+          "read": { Expression },
+          "write": { Expression }
+        },
+     }
+    ],
+    "filters": [{
+      "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/data_sources/#filters",
+      "name": "<Filter Name>",
+      "apply_when": { Expression },
+      "query": { MongoDB Query },
+      "projection": { MongoDB Projection }
+    }]
+  }

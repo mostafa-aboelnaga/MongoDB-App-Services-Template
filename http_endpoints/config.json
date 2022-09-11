@@ -1,0 +1,14 @@
+[
+    {
+      "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/http_endpoints/#custom-https-endpoint-configuration",
+      "route": "<Endpoint route name>",
+      "http_method": "<HTTP method>",
+      "function_name": "<Endpoint function name",
+      "validation_method": "<Authorization scheme>",
+      "secret_name": "<Validation Secret Name>",
+      "respond_result": <boolean>,
+      "fetch_custom_user_data": <boolean>,
+      "create_user_on_auth": <boolean>,
+      "disabled": <boolean>
+    }
+  ]

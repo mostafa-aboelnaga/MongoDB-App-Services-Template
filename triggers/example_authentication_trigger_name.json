@@ -1,0 +1,11 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/triggers/#authentication-triggers",
+    "name": "<Trigger Name>",
+    "type": "AUTHENTICATION",
+    "config": {
+      "operation_type": ["<Operation Type>", ...],
+      "providers": ["<Provider Type>", ...],
+    },
+    "function_name": "<Trigger Function Name>",
+    "disabled": <Boolean>
+  }

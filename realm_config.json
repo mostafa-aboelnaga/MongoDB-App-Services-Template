@@ -1,0 +1,10 @@
+{
+    "reference": "https://www.mongodb.com/docs/atlas/app-services/manage-apps/configure/config/app/#configuration",
+    "app_id": "<App ID>",
+    "name": "<App Name>",
+    "config_version":  7422,// <Version Number>,
+    "environment": "<Environment Name>",
+    "allowed_request_origins": ["<Origin URL>", ...],
+    "deployment_model": "<Deployment Model Type>",
+    "location": "<Deployment Cloud Region Name>"
+  }
